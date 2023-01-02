@@ -1,0 +1,47 @@
+.home-screen-text {
+    color: white;
+    align-self: flex-start;
+    font-family: 'Manrope', sans-serif;
+    padding-left: 2rem;
+} 
+
+.menu-text {
+    font-size: 2.5vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+    transition: .3s all;
+    text-decoration: none;
+}
+
+.menu-text:hover {
+    color: green;
+}   
+
+.welcome-text {
+    font-size: 3.5rem;
+}
+
+.main-screen-tab {
+    margin-top: 1rem;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    align-items: stretch;
+}
+
+#home {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,12 @@
+#contact {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-text-main {
+    color: black;
+    font-size: 5rem;
+}
